@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Register</title>
+    <style>
+        body{
+            background: #f4f4f4;
+        }
+        .signup-form {
+            max-width: 360px;
+            margin: 60px auto;
+            padding: 40px;
+            border: 1px solid #ddd;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+            background: #fff;
+        }
+        .btn {
+            background: #fff;
+            padding: 8px 12px;
+            border-radius: 4px;
+            color: #8d69f1;
+            cursor: pointer;
+            font-size: 1em;
+            border: 1px solid #8d69f1;
+        }
+        .btn:hover {
+            color: #fff;
+            background-color: #8d69f1;
+        }
+        label {
+            display: block;
+            margin: 24px auto;
+        }
+        label span {
+            display: block;
+            margin-bottom: 6px;
+        }
+        input{
+            padding: 8px 6px;
+            font-size: 1em;
+            color: #777;
+            width: 100%;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        nav{
+            background: #777;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html"> <img src="https://getvoip.com/uploads/Virtual-Conference-2.jpg" alt="CONFER NOW"></a>
+        <div class="nav_links" id="navlinks">
+        <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+        <ul>
+            <li class="fk"><a href="login.html">Login</a></li>
+            <li class="fk"><a href="register.html">Register</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+    </div>
+    </nav>
+    <form class="signup-form">
+        <h2>Register</h2>
+        <label>
+          <span>email:</span>
+          <input
+          />
+        </label>
+        <label>
+          <span>password:</span>
+          <input
+          />
+        </label>
+        <label>
+          <span>display name:</span>
+          <input
+          />
+        </label>
+        <button class="btn">Register</button>
+      </form>
+</body>
+</html>

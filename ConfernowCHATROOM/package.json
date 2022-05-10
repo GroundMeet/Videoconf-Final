@@ -1,0 +1,24 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "Chatting app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1",
+    "socket.io": "^4.4.1",
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^2.0.15",
+    "babael-present-env":"^1.6.1",
+    "babel-present-stage-0":"^6.24.1"
+  }
+}
